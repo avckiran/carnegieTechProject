@@ -74,14 +74,28 @@ p {
 }
 
 .clock-container{
+    margin:auto;
+}
+
+.clockBase{
     position: relative;
-    width: 400px;
-    height: 400px;
-    align-content: center;
 }
 
-.clock-container > #base, #LongHand{
+.inner-ring {
     position: absolute;
+    margin:100px;
 }
 
+.long-hand{
+    position: absolute;
+    left: 180px;
+    margin-top: 30px;
+}
 
+.short-hand{
+    position: absolute;
+    left: 182px;
+    margin-top: 60px;
+    transform: rotate(230deg);
+    transform-origin: 50% 125%;
+}

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const OuterRing = () => {
+const OuterRing = ({className}) => {
     return (
-            <svg width="249px" height="249px" viewBox="0 0 249 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg className = {className} width="249px" height="249px" viewBox="0 0 249 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <title>Group 2</title>
             <desc>Created with Sketch.</desc>
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

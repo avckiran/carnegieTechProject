@@ -1,8 +1,8 @@
 import React from 'react'
 
-const LongHand = () => {
+const LongHand = ({className}) => {
     return (
-        <svg width="13px" height="81px" viewBox="0 0 13 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg className={className} width="13px" height="81px" viewBox="0 0 13 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <title>Path</title>
             <desc>Created with Sketch.</desc>
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

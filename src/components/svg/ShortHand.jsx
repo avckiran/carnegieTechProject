@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ShortHand = () => {
+const ShortHand = ({className}) => {
     return (
-        <svg width="8px" height="52px" viewBox="0 0 8 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg className={className} width="8px" height="52px" viewBox="0 0 8 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <title>Line</title>
         <desc>Created with Sketch.</desc>
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
