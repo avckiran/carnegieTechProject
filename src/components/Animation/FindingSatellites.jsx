@@ -1,22 +1,38 @@
-import React from 'react';
+import React, {useState} from 'react';
 import earth from '../../assets/earth.svg';
-import satellite from '../../assets/satellite.svg';
+// import satellite from '../../assets/satellite.svg';
+import Spinner from '../../assets/Spinner.gif';
+import Satellite from '../svg/Satellite';
 
 
 const FindingSatellites = () => {
+    const [opacity, setOpacity] = useState(0.5)
+    setInterval(()=>{
+        if (opacity === 0.5){
+            setOpacity(1)
+        }else{
+            setOpacity(0.5)
+        }
+    }, 500)
+
     return (
         <div className="finding-satellites">
+              <p style={{marginTop:'20px', marginBottom:'20px'}}>We have lots of satellites. We're looking for a good match...</p>
+            <div className="spinner-class">
+                <img src={Spinner} alt="" width="75px"/>
+            </div>
             <div className="sat">
-                <img src={satellite}  alt=""/>
-                <img src={satellite} style={{transform: 'rotate(90deg)'}}alt=""/>
+                <Satellite opacity={opacity} rotate="-180.0000" />
+                <Satellite opacity={opacity} rotate="90.0000" />
             </div>
                 <img src={earth} alt=""/>
             <div className="sat">
-                <img src={satellite} style={{transform: 'rotate(-90deg)'}} alt=""/>
-                <img src={satellite} style={{transform: 'rotate(180deg)'}} alt=""/>
+                <Satellite opacity={opacity} rotate="-90.0000" />
+                <Satellite opacity={opacity} rotate="0" />
             </div>
         </div>
     )
+
 }
 
 export default FindingSatellites
