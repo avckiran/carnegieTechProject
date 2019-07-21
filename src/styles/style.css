@@ -1,6 +1,6 @@
 html{
     height:100%;
-    background:radial-gradient(#e9e9e9, #4a90e2);
+    background:radial-gradient(rgba(74,144,226, 0.45), #4a90e2);
 }
 
 
@@ -118,13 +118,13 @@ p {
 
 .long-hand{
     position: absolute;
-    left: 48%;
+    left: 47%;
     margin-top: 30px;
 }
 
 .short-hand{
     position: absolute;
-    left: 48.5%;
+    left: 48%;
     margin-top: 60px;
     transform: rotate(230deg);
     transform-origin: 50% 125%;

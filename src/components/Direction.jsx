@@ -12,8 +12,8 @@ const Direction = () => {
                 <p style={{margin:'3%'}}>The <strong style={{color:'#9013fe'}}>hour hand</strong> is<br/> SATTEFI-US-117</p>
             {/* <div className="finding-satellites"> */}
                 
-                <div className="btn-placement" style={{marginTop:'5%'}}>
-                    <Link to="/direction" className="btn-style" >Next</Link>
+                <div className="btn-placement" style={{marginTop:'5%', opacity:'0.2'}}>
+                    <Link to="/direction" className="btn-style">Next</Link>
                 </div>
             {/* </div> */}
         </div>
