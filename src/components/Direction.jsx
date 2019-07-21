@@ -8,8 +8,10 @@ const Direction = () => {
         <div className="text-center">
                 <h4>Pointing in the right direction </h4>
             <div className="finding-satellites">
-                <p style={{marginTop:'20px', marginBottom:'20px', fontSize:'1.5rem'}}>Stand with your phone in your hand, arm extended, screen facing up, and rotate on your feet until the two clock hands on the next screen are at midnight.</p>
+                <p style={{margin: '40px', fontSize:'1.5rem'}}>The <strong>minute hand</strong> is where you're pointing</p>
                 <Clock />
+                <p style={{margin: '40px', fontSize:'1.5rem'}}>The <strong>hour hand</strong> is SATTEFI-US-117</p>
+                
                 <div className="btn-placement">
                     <Link to="/direction" className="btn-style" >Next</Link>
                 </div>

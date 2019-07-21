@@ -11,7 +11,7 @@ html{
 h4{
     font-family: 'Open Sans', 'Arial';
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 300;
 }
 h4 sup{
@@ -36,20 +36,21 @@ p {
     color:#fff;
     font-family: 'roboto', 'arial';
     text-decoration: unset;
-    font-size:2rem;
+    font-size:1.3rem;
     border-radius: 40px;
     padding: 10px 25px;
     font-weight: 300;
 }
 
 .btn-placement{
-    margin: 30px 10px;
-    margin-top: 70px;
+    /* margin: 30px 10px; */
+    /* margin-top: 70px; */
     padding: 10px;
     text-align: right;
-    position: absolute;
-    top: 80%;
-    right: 5%;
+    /* position: absolute; */
+    position:relative;
+    /* top: 80%; */
+    /* right: 5%; */
 }
 
 .finding-satellites{
@@ -75,6 +76,7 @@ p {
 
 .clock-container{
     margin:auto;
+    position:relative;
 }
 
 .clockBase{
@@ -88,14 +90,35 @@ p {
 
 .long-hand{
     position: absolute;
-    left: 180px;
+    left: 48%;
     margin-top: 30px;
 }
 
 .short-hand{
     position: absolute;
-    left: 182px;
+    left: 48.5%;
     margin-top: 60px;
     transform: rotate(230deg);
     transform-origin: 50% 125%;
 }
+
+.text-style{
+    position: absolute;
+    top: 61%;
+    font-size: 1.5rem;
+    font-family: 'roboto';
+    font-weight: bold;
+    color: #9013fe;
+    left: 39%;
+}
+
+@media screen and (min-width:768px){
+    .text-align-media{
+         top:61%;
+         left:46%;
+    }
+}
+
+
+
+

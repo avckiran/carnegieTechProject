@@ -17,7 +17,7 @@ const FindingSatellites = () => {
 
     return (
         <div className="finding-satellites">
-              <p style={{marginTop:'20px', marginBottom:'20px'}}>We have lots of satellites. We're looking for a good match...</p>
+              <p style={{marginTop:'20px', marginBottom:'20px', fontSize:'1.5rem'}}>We have lots of satellites. We're looking for a good match...</p>
             <div className="spinner-class">
                 <img src={Spinner} alt="" width="75px"/>
             </div>

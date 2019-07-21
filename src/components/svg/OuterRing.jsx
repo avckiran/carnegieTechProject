@@ -1,12 +1,12 @@
 import React from 'react'
 
-const OuterRing = ({className}) => {
+const OuterRing = ({className, style}) => {
     return (
-            <svg className = {className} width="249px" height="249px" viewBox="0 0 249 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg className = {className} width="249px" height="249px" viewBox="0 0 249 249" style={style}  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <title>Group 2</title>
             <desc>Created with Sketch.</desc>
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="Direction-2" transform="translate(-63.000000, -312.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" color="red">
+                <g id="Direction-2" style={style} transform="translate(-63.000000, -312.000000)" fill='#FFFFFF' fill-rule="nonzero">
                     <g id="noun_clock_2212068" transform="translate(63.000000, 312.000000)">
                         <g id="Group">
                             <g id="Group-2" transform="translate(-0.000000, -0.000000)">
