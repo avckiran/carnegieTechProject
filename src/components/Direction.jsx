@@ -5,17 +5,17 @@ import Clock from './Animation/Clock';
 
 const Direction = () => {
     return (
-        <div className="text-center">
-                <h4>Pointing in the right direction </h4>
-            <div className="finding-satellites">
-                <p style={{margin: '40px', fontSize:'1.5rem'}}>The <strong>minute hand</strong> is where you're pointing</p>
+        <div className="flex-style-box">
+                <h4 style={{margin:'2% auto'}}>Pointing in the right direction </h4>
+                <p style={{margin:'3%'}}>The <strong>minute hand</strong> is where you're pointing</p>
                 <Clock />
-                <p style={{margin: '40px', fontSize:'1.5rem'}}>The <strong>hour hand</strong> is SATTEFI-US-117</p>
+                <p style={{margin:'3%'}}>The <strong style={{color:'#9013fe'}}>hour hand</strong> is<br/> SATTEFI-US-117</p>
+            {/* <div className="finding-satellites"> */}
                 
-                <div className="btn-placement">
+                <div className="btn-placement" style={{marginTop:'5%'}}>
                     <Link to="/direction" className="btn-style" >Next</Link>
                 </div>
-            </div>
+            {/* </div> */}
         </div>
     )
 }

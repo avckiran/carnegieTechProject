@@ -1,18 +1,17 @@
 html{
     height:100%;
     background:radial-gradient(#e9e9e9, #4a90e2);
-    
 }
 
-.text-center{
-    text-align: center;
-}
+
+
 
 h4{
     font-family: 'Open Sans', 'Arial';
     color: white;
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: 300;
+    text-align: center;
 }
 h4 sup{
     font-size: 1.3rem;
@@ -24,12 +23,40 @@ h4 sup{
 p {
     font-family: 'roboto', 'arial';
     color:white;
-    font-size: 1.9em;
+    font-size: 1.5em;
     font-weight:400;
     margin: 20px 30px;
     padding-bottom: 20px;
     font-size-adjust: 0.5;
+    text-align: center;
 }
+
+
+#root{
+    height:100%;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+
+.flex-style-box{
+    display:flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+    height:100%;
+}
+
+.earth-sat{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
 
 .btn-style{
     background: #9013fe;
@@ -40,6 +67,7 @@ p {
     border-radius: 40px;
     padding: 10px 25px;
     font-weight: 300;
+
 }
 
 .btn-placement{
@@ -49,8 +77,8 @@ p {
     text-align: right;
     /* position: absolute; */
     position:relative;
-    /* top: 80%; */
-    /* right: 5%; */
+    margin-top: 20%;
+    margin-bottom:20%;
 }
 
 .finding-satellites{
@@ -70,7 +98,7 @@ p {
 
 .spinner-class{
     position: absolute;
-    top: 45%;
+    top: 35%;
     left:40%;
 }
 
@@ -103,22 +131,25 @@ p {
 }
 
 .text-style{
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    margin-top: 65%;
     position: absolute;
-    top: 61%;
     font-size: 1.5rem;
     font-family: 'roboto';
     font-weight: bold;
     color: #9013fe;
-    left: 39%;
 }
 
-@media screen and (min-width:768px){
-    .text-align-media{
-         top:61%;
-         left:46%;
-    }
-}
 
+.compass-img{
+    max-width: 100px;
+    min-width: 20%;
+    height: auto;
+    margin:auto;
+
+}
 
 
 

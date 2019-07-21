@@ -33,7 +33,7 @@ const Clock = () => {
         opacity: 1
     }
 
-    const perfect = rotation === 360 ? <span className="text-style text-align-media">Perfect!</span> : null;
+    const perfect = rotation === 360 ? <div className="text-style text-align-media"><span>Perfect!</span></div> : null;
 
 
 
